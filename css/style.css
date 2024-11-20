@@ -166,3 +166,60 @@ img {
   font-weight: 700;
   font-size: 20px;
 }
+
+/* *********** CONTACTS *********** */
+
+.contacts-inner {
+  display: flex;
+  background: #574b63;
+  color: #ffffff;
+}
+
+.contacts-form {
+  width: 100%;
+  padding: 137px 93px;
+  text-align: center;
+}
+
+.contacts-title {
+  color: #ffffff;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.contacts-input {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: #574b63;
+}
+
+.contacts-input::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.contacts-form p {
+  text-align: center;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+
+.contacts-btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #490e84;
+  padding: 16px 81px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
