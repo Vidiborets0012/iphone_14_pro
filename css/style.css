@@ -102,3 +102,25 @@ img {
   background-color: #490e84;
   border-radius: 30px;
 }
+
+/* *********** COLOR *********** */
+
+.color {
+  padding-bottom: 150px;
+}
+
+.color-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.color-img {
+  margin-bottom: 20px;
+}
+
+.color-subtitle {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
