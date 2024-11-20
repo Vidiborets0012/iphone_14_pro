@@ -102,3 +102,45 @@ img {
   background-color: #490e84;
   border-radius: 30px;
 }
+
+/* *********** NEW *********** */
+
+.new {
+  padding-top: 87px;
+  padding-bottom: 150px;
+  /* max-width: 1130px; */
+}
+
+.new-title,
+.color-title,
+.contacts-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #717171;
+  margin-bottom: 50px;
+}
+
+.new-info {
+  display: flex;
+  align-items: center;
+}
+
+.new-text p {
+  max-width: 560px;
+  margin-bottom: 30px;
+}
+
+.new-text b {
+  display: block;
+  max-width: 560px;
+  font-size: 20px;
+  line-height: 26px;
+  color: #0a0a0a;
+}
+
+.new-img {
+  margin-left: 191px;
+}
